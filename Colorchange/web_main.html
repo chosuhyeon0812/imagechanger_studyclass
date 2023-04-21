@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Color to Gray Converter</title>
+</head>
+<body>
+    <h1>Color to Gray Converter</h1>
+    {% if filename %}
+        <h2>Converted Image:</h2>
+        <img src="D:\chosuhyeon\school_class\python\py0421\Colorchange\img_20230207142115_3e5799ed.webp" alt="gray image">
+    {% endif %}
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
